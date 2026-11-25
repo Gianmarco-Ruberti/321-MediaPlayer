@@ -21,7 +21,7 @@ Le projet BitRuisseau vise à concevoir une application d'écoute et de partage 
 
    - Importer un fichier audio ou vidéo d'une médiathèque distante vers sa propre médiathèque locale pour pouvoir le lire, même en cas d'indisponibilité de la source.
 ### pédagogique
-Ce projet permet de pratiquer et de valider les notions théoriques et techniques vues en cours,  la mise en œuvre d'un protocole réseau P2P. Il s'agit également d'améliorer la communication et la collaboration au sein d'un groupe pour assurer le bon fonctionnement de l'application.
+Ce projet permet de pratiquer et de valider les notions théoriques et techniques vues en cours, notamment à travers la mise en œuvre concrète d'un protocole réseau P2P. Au-delà de l'aspect technique, il vise à renforcer le travail en groupe en améliorant la communication et la collaboration pour assurer le bon fonctionnement de l'application. Sur le plan méthodologique, ce travail permet de valider la réalisation d'une analyse fonctionnelle sous forme de User Stories, le suivi rigoureux de l'avancement grâce à la tenue d'un journal de travail, ainsi que la gestion complète d'une livraison finale fonctionnelle. Enfin, ce projet est l'occasion d'apprendre à trouver une juste balance dans l'utilisation de l'IA, en l'exploitant comme un outil d'assistance pertinent sans qu'elle ne remplace la réflexion et l'apprentissage personnel.
 ## analyse fonctionnelle
 ## schema d'architecture
 ## bilan des US
