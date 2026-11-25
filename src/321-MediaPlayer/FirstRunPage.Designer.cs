@@ -104,10 +104,10 @@ namespace _321_MediaPlayer
             this.labelFolderPath.Location = new Point(24, 44);
             this.labelFolderPath.Size = new Size(396, 24);
             this.labelFolderPath.Font = new Font("Segoe UI", 10F);
-            this.labelFolderPath.ForeColor = Color.FromArgb(232, 232, 236);
+            this.labelFolderPath.ForeColor = Color.FromArgb(138, 138, 144);
             this.labelFolderPath.TextAlign = ContentAlignment.MiddleLeft;
             this.labelFolderPath.AutoEllipsis = true;
-            this.labelFolderPath.Text = @"D:\Musique";
+            this.labelFolderPath.Text = "Aucun dossier sélectionné";
 
             this.btnBrowse = new Button();
             this.btnBrowse.Location = new Point(440, 34);
@@ -122,6 +122,7 @@ namespace _321_MediaPlayer
             this.btnBrowse.Text = "Parcourir…";
             this.btnBrowse.Cursor = Cursors.Hand;
             this.btnBrowse.UseVisualStyleBackColor = false;
+            this.btnBrowse.Click += this.btnBrowse_Click;
 
             this.panelFolderCard.Controls.Add(this.labelFolderCaption);
             this.panelFolderCard.Controls.Add(this.labelFolderPath);
@@ -145,15 +146,17 @@ namespace _321_MediaPlayer
             this.btnStart = new Button();
             this.btnStart.Location = new Point(40, 404);
             this.btnStart.Size = new Size(180, 44);
-            this.btnStart.BackColor = Color.FromArgb(139, 92, 246);
-            this.btnStart.ForeColor = Color.White;
+            this.btnStart.BackColor = Color.FromArgb(58, 58, 65);
+            this.btnStart.ForeColor = Color.FromArgb(120, 120, 128);
             this.btnStart.FlatStyle = FlatStyle.Flat;
             this.btnStart.FlatAppearance.BorderSize = 0;
             this.btnStart.FlatAppearance.MouseOverBackColor = Color.FromArgb(158, 118, 255);
             this.btnStart.FlatAppearance.MouseDownBackColor = Color.FromArgb(120, 76, 224);
             this.btnStart.Font = new Font("Segoe UI", 9.5F, FontStyle.Bold);
             this.btnStart.Text = "Commencer";
+            this.btnStart.Enabled = false;
             this.btnStart.UseVisualStyleBackColor = false;
+            this.btnStart.Click += this.btnStart_Click;
 
             this.btnLater = new Button();
             this.btnLater.Location = new Point(232, 404);
@@ -168,6 +171,7 @@ namespace _321_MediaPlayer
             this.btnLater.Text = "Plus tard";
             this.btnLater.Cursor = Cursors.Hand;
             this.btnLater.UseVisualStyleBackColor = false;
+            this.btnLater.Click += this.btnLater_Click;
 
             // ------------------------------------------------------------------
             // Assemblage
